@@ -1,3 +1,9 @@
+! Title: Luna's Filterlist 
+! Description: My personal filter list that blocks all kinds of random things
+! Version: 1.0
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/lunatic-gh/ublock-filterlist
+
 # Blocks Premium ads (e.g. banners) on nexusmods
 www.nexusmods.com###nonPremiumBanner
 
