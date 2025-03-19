@@ -1,0 +1,14 @@
+# Blocks Premium ads (e.g. banners) on nexusmods
+www.nexusmods.com###nonPremiumBanner
+
+# Blocks countless annoying things on youtube that make no sense or are just... annoying.
+www.youtube.com##ytd-shelf-renderer:has(#title:has-text(/^\s*(People also watched|For you|Previously watched|Latest from|Explore more)\s*$/))
+www.youtube.com##ytd-shelf-renderer.style-scope:has-text(/Latest from/)
+www.youtube.com##ytd-radio-renderer
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer:has-text(People also search for)
+www.youtube.com##ytd-compact-playlist-renderer
+www.youtube.com##ytd-compact-radio-renderer
+www.youtube.com##yt-chip-cloud-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer:has(#title:has-text(/^\s*(COVID-19 news)\s*$/))
+www.youtube.com##ytd-rich-section-renderer:has(#featured-badge)
+www.youtube.com##ytd-rich-item-renderer.style-scope:has-text(/Mix/)
