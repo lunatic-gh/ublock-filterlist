@@ -1,20 +1,32 @@
 ! Title: Luna's Filterlist 
 ! Description: My personal filter list that blocks all kinds of random things
 ! Version: 1.0
-! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/lunatic-gh/ublock-filterlist
 
 # Blocks Premium ads (e.g. banners) on nexusmods
 www.nexusmods.com###nonPremiumBanner
 
 # Blocks countless annoying things on youtube that make no sense or are just... annoying.
+#
+# The categories from the Search Page that don't have ANYTHING to do with your search (e.g. "For you" or "People also Watched")
 www.youtube.com##ytd-shelf-renderer:has(#title:has-text(/^\s*(People also watched|For you|Previously watched|Latest from|Explore more|From related searches)\s*$/))
+# No idea...
 www.youtube.com##ytd-shelf-renderer.style-scope:has-text(/Latest from/)
+# No idea...
 www.youtube.com##ytd-radio-renderer
+# Stupidity...
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer:has-text(People also search for)
+# Removes playlists from video suggestions on a video page
 www.youtube.com##ytd-compact-playlist-renderer
+# Removes Mixes from video suggestions on a video page
 www.youtube.com##ytd-compact-radio-renderer
+# No idea... 
 www.youtube.com##yt-chip-cloud-renderer.style-scope
+# Removes Covid News - No idea if this is still a thing tbh, but why not...
 www.youtube.com##ytd-rich-section-renderer:has(#title:has-text(/^\s*(COVID-19 news)\s*$/))
+# Removes Featured Videos
 www.youtube.com##ytd-rich-section-renderer:has(#featured-badge)
+# Removes Mixes from start page
 www.youtube.com##ytd-rich-item-renderer.style-scope:has-text(/Mix/)
+# Removes those stupid gigantic "event" banners on the start page
+www.youtube.com###foreground-content
