@@ -30,3 +30,5 @@ www.youtube.com##ytd-rich-section-renderer:has(#featured-badge)
 www.youtube.com##ytd-rich-item-renderer.style-scope:has-text(/Mix/)
 # Removes those stupid gigantic "event" banners on the start page
 www.youtube.com###foreground-content
+# Removes Unrelated Banners on the search page
+www.youtube.com###.ytd-item-section-renderer.ytOfficialCardViewModelHost
