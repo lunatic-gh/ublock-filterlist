@@ -32,3 +32,5 @@ www.youtube.com##ytd-rich-item-renderer.style-scope:has-text(/Mix/)
 www.youtube.com###foreground-content
 # Removes Unrelated Banners on the search page
 www.youtube.com###.ytd-item-section-renderer.ytOfficialCardViewModelHost
+# Hides AI Video Summaries
+www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope:has(yt-formatted-string.style-scope.ytd-expandable-metadata-renderer:contains("AI-generated video summary"))
