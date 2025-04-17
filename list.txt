@@ -35,4 +35,4 @@ www.youtube.com###.ytd-item-section-renderer.ytOfficialCardViewModelHost
 # Hides AI Video Summaries
 www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope:has(yt-formatted-string.style-scope.ytd-expandable-metadata-renderer:contains("AI-generated video summary"))
 # Hides Localized Video Clarifications that appear whenever specific words are just MENTIONED in a video (e.g. Covid, Flatearth, etc.)
-###clarify-box
+www.youtube.com###clarify-box
