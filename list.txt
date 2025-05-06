@@ -5,6 +5,7 @@
 
 # Blocks Premium ads (e.g. banners) on nexusmods
 www.nexusmods.com###nonPremiumBanner
+www.nexusmods.com##.border-premium-moderate
 
 # Blocks countless annoying things on youtube that make no sense or are just... annoying.
 #
